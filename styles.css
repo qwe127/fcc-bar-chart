@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 27, 32);
+    color: black;
+    fill: black
+}
+
+
+h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.svgCanvas {
+    justify-content: center;
+    fill: rgb(216, 219, 226)
+}
+
+.bar{
+    fill: rgb(114, 130, 223);
+}
+
+.bar:hover {
+    fill: rgba(43, 45, 155, 0.795)
+}
